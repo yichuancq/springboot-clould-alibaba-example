@@ -4,8 +4,6 @@
     docker search sentinel
 ### 获取安装
     docker pull sentinel:latest
-## 看板
-访问URL，Sentinel 控制台引入基本的登录功能，默认用户名和密码都是 sentinel 
 ### 访问写好的controller
 ```Java
 /**
@@ -26,6 +24,8 @@ public String helloError() {
     return "error";
 }
 ```
+## 看板
+访问URL，Sentinel 控制台引入基本的登录功能，默认用户名和密码都是 sentinel 
 
     http://localhost:8080/#/login    
 ![img](screenshoot/centinel/board.png)

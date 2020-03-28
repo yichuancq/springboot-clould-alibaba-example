@@ -1,20 +1,14 @@
+#client名称和端口
 server:
   port: 8090
+  name: my-sentinel-clinet
+
+#sentinel注册到dashboard
 spring:
   application:
     name: spring-cloud-gateway
   cloud:
-    nacos:
-      config:
-        server-addr: 127.0.0.1:8080
-        group: DEFAULT_GROUP
-        file-extension: yaml
-        enabled: false
-      discovery:
-        server-addr: 127.0.0.1:8080
-    gateway:
-      routes:
-        - id: path_route
-          uri: http://127.0.0.1:8001/
-          predicates:
-            - Path=/mz/**
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+    #eager: true

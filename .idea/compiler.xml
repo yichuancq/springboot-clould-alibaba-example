@@ -8,10 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="oos" />
         <module name="dubbo" />
-        <module name="nacos" />
+        <module name="schedulerx" />
         <module name="sentinel" />
         <module name="sms" />
-        <module name="schedulerx" />
+        <module name="nacos" />
         <module name="seata" />
       </profile>
     </annotationProcessing>

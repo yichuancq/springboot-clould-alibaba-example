@@ -30,9 +30,9 @@ public String helloError() {
 ```
 
     http://localhost:8080/#/login    
-![img](screenshoot/centinel/board.png  =250x)
+![img](screenshoot/centinel/board.png)
 
 ## 规则列表
 进入规则列表
 
-![img](screenshoot/centinel/rulelist.png =250x)
+![img](screenshoot/centinel/rulelist.png)

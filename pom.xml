@@ -22,8 +22,6 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
-
-
     <modules>
         <module>sentinel</module>
         <module>nacos</module>
@@ -33,7 +31,6 @@
         <module>schedulerx</module>
         <module>sms</module>
     </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

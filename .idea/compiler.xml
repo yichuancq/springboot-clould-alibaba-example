@@ -10,17 +10,17 @@
         <module name="nacos-discovery" />
         <module name="dubbo" />
         <module name="schedulerx" />
-        <module name="spring-dubbo" />
         <module name="sentinel" />
         <module name="sms" />
-        <module name="nacos-config" />
         <module name="seata" />
         <module name="spring-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nacos-config" target="1.8" />
       <module name="nacos-discovery" target="1.8" />
       <module name="spring-boot" target="1.8" />
+      <module name="spring-dubbo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

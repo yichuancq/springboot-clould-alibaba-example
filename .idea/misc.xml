@@ -22,8 +22,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/nacos/nacos-config/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/nacos-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/spring-dubbo/pom.xml" />
       </set>
     </option>
   </component>

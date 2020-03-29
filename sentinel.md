@@ -3,19 +3,12 @@
 ### Sentinel的控制台安装
     docker search sentinel
 ### 获取安装
-    docker pull sentinel:latest
+    docker pull bladex/sentinel-dashboard
 ### Sentinel的控制台安装
      https://github.com/alibaba/Sentinel/releases
 ###使用docker安装控制台
-    docker search sentinel
-    docker pull centinal
-    docker run -d --name sentinel -p 8858:8858 bladex/sentinel-dashboard:1.7.0
-这里需要注意的是用docker启动的该实例端口号为8858,而不是我们正常启动jar包的8080
-命令启动
+    docker run --name sentinel-dashboard -p 9001:8858 -d bladex/sentinel-dashboard:latest
 
-    java -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard.jar
-
-启动后，界面如下,访问端口8080(以jar包启动为例)
-        
-    http://localhost:8080/#/login    
+访问URL
+    http://localhost:9001/#/login    
 Sentinel 控制台引入基本的登录功能，默认用户名和密码都是 sentinel

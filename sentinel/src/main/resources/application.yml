@@ -10,5 +10,6 @@ spring:
   cloud:
     sentinel:
       transport:
-        dashboard: localhost:8080
+        #sentinel看板地址
+        dashboard: localhost:9001
     #eager: true

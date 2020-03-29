@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="oos" />
-        <module name="nacos-discovery" />
         <module name="dubbo" />
         <module name="schedulerx" />
-        <module name="sentinel" />
+        <module name="nacos-discovery" />
         <module name="sms" />
+        <module name="sentinel" />
         <module name="seata" />
         <module name="spring-boot" />
       </profile>

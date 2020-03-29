@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="oos" />
         <module name="dubbo" />
+        <module name="nacos-cfg" />
         <module name="schedulerx" />
         <module name="nacos-discovery" />
         <module name="sms" />
@@ -27,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dubbo" options="-parameters" />
       <module name="nacos" options="-parameters" />
+      <module name="nacos-cfg" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-discovery" options="-parameters" />
       <module name="oos" options="-parameters" />
